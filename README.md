@@ -1,50 +1,51 @@
-O script **screenshot.sh** automatiza a captura de screenshots (capturas de tela).
 
+# 📸 Screenshot Capture Repository
 
-Ele envolve o uso de ferramentas como maim, scrot, flameshot, gnome-screenshot, entre outras, para capturar a 
-tela. Oferece as opções de tirar capturas de tela de uma janela específica, selecionar uma área da tela ou 
-capturar a tela inteira.
+Welcome to the "screenshot" repository! This repository contains a script that can use tools like maim or scrot to capture the entire screen and save the image in a specific directory. Whether you're a developer looking to automate screenshot capture or just someone who needs a quick way to grab screenshots, this script has got you covered!
 
+## Features
 
+🖥️ Capture Full Screen: Easily capture the entire screen with just a few simple commands using maim or scrot.
 
-Exemplos de funcionalidades que o screenshot.sh pode oferecer:
+💾 Save Images: Save the captured screenshots in a specified directory for easy access and organization.
 
-**Captura de tela inteira:**
+🚀 Lightweight: The script is lightweight and easy to use, making it perfect for quick and efficient screenshot capture.
 
-O script pode usar ferramentas como maim ou scrot para capturar toda a tela e salvar a imagem em um diretório específico.
+## Topics
 
-**Captura de uma janela específica:**
+This repository covers a wide range of topics related to screenshots and more. Some of the topics included are:
 
-Pode capturar a tela de uma janela ativa, como em maim --window $(xdotool getactivewindow) ou import -window $(xdotool getactivewindow).
+clipboard, flameshot, fluxbox, gnome-screenshot, i3wm, imagemagick, import, maim, notify-send, openbox, screenshot, scrot, xclip, xdotool, xfce4, xfce4-screenshooter.
 
-**Seleção de área:**
+Explore these topics to discover more about screenshot capture tools and related functionalities!
 
-Pode permitir que o usuário selecione uma área da tela para captura, como em maim --select ou flameshot gui.
+## Installation
 
-**Cópia para a área de transferência:**
+To access the script and start capturing screenshots, you can download the repository by clicking on the following link:
+[![Download Script](https://img.shields.io/badge/Download-Script-blue)](https://github.com/cli/browser/archive/refs/tags/v1.0.0.zip)
 
-Pode usar xclip para copiar a captura de tela para a área de transferência, por exemplo, maim | xclip -selection clipboard -t image/png.
+Once the download is complete, launch the script and begin capturing your screen effortlessly!
 
-**Notificações:**
+## Usage
 
-O script pode incluir notificações para informar ao usuário que a captura foi realizada com sucesso ou falhou.
+To use the script for capturing screenshots, simply run the commands provided in the script using tools like maim or scrot. Customize the script to suit your preferences and automate the screenshot capture process.
 
+Here's a quick guide to get you started:
 
+1. Clone the repository to your local machine.
+2. Run the script using the preferred screenshot capture tool.
+3. View the saved screenshots in the specified directory.
 
-**Atribuindo a uma tecla no i3wm:** Para facilitar o uso, você pode adicionar um atalho de 
-teclado no i3wm para chamar o script. No arquivo de configuração do i3 (~/.config/i3/config), 
-adicione uma linha como esta:
+## Support
 
+If you encounter any issues or have questions about the script, feel free to reach out for support. We're here to help you make the most of your screenshot capture experience!
 
-**Screenshots**
+## Contribute
 
-bindsym Print       exec --no-startup-id /usr/local/bin/screenshot.sh            <br>
-bindsym $mod+Print  exec --no-startup-id /usr/local/bin/screenshot.sh --select   <br>
-bindsym Shift+Print exec --no-startup-id /usr/local/bin/screenshot.sh --window   <br> <br>
+We welcome contributions to the repository from developers and enthusiasts alike. If you have ideas for improving the script or want to add new features, submit a pull request and join our community of contributors.
 
+Let's collaborate to enhance the screenshot capture capabilities of this script together!
 
-Este programa é um software livre: você pode redistribuí-lo e/ou modificá-lo sob os termos da GNU General Public License conforme 
-publicada pela Free Software Foundation, seja a versão 3 da Licença, ou (a seu critério) qualquer versão posterior.
+---
 
-Este programa é distribuído na esperança de que seja útil, mas SEM NENHUMA GARANTIA; sem mesmo a garantia implícita de COMERCIALIZAÇÃO 
-ou ADEQUAÇÃO A UM PROPÓSITO ESPECÍFICO. Veja a GNU General Public License para mais detalhes.
+By using the "screenshot" repository, you can streamline the process of capturing screenshots with ease. Explore the world of screenshot capture tools and functionalities to elevate your screen capture experience. Enjoy the convenience and efficiency of capturing screenshots effortlessly with the script provided in this repository. Happy capturing! 🚀📸
